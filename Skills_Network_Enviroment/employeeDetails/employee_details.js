@@ -26,7 +26,7 @@ function calculateTotalSalaries() {
      document.getElementById('employeesDetails').innerHTML = hrEmployeesDisplay;
 }
 
-//Displays it employees only
+//Displays employee speciality
 function findEmployeeBySpecialization(employeespecialization){
   const found = employees.find(employee => employee.specialization === employeespecialization);
   if (found) {
